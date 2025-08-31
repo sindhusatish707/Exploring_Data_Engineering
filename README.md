@@ -45,3 +45,40 @@
   Code:<br>
   Create and load data to SQLite to simulate a mini warehouse and query the data.
 </p>
+
+<p>
+  Day 4:<br>
+  Knowledge Gain:<br>
+  Different Data Storage Systems <br>
+  1. Database - Store structural(SQL) or semi-structural(NoSQL) data. Useful for day to day operations (OLTP)<br>
+  2. Data Warehouse - Store large volumes of structured data. Useful for BI dashboards. Optimised for analytics and reporting (OLAP)<br>
+  3. Data Lake - Store raw, unstructured or semi-structured data. Requires some processing before using the data.
+</p>
+<p>
+  Code:<br>
+  Simulating a database and data warehouse using SQLite with some SQL query executions. Data Lakes are simulated by storing JSON data.
+</p>
+
+<p>
+  Day 5:<br>
+  Knowledge Gain:<br>
+  Types of Data Processing <br>
+  1. Batch Processing: Collected data is processed in bulk. Useful in historical analysis or scheduled jobs. <br>
+  2. Stream Processing: Data is processed in real-time as it arrives. Useful in fraud detection and real-time dashboards.
+</p>
+<p>
+  Code:<br>
+  Use raw_data created to showcase batch processing by adding the amount and depict stream processing using for loop and adding to total as streamed.
+</p>
+
+<p>
+  Day 6:<br>
+  Knowledge Gain:<br>
+  Moving and Transforming Data : ETL vs ELT <br>
+  1. ETL (Extract -> Transform -> Load) - Extract data from source, transform by cleaning, structuring, and then load to warehouses where it will be stored. <br>
+  2. ELT (Extract -> Load -> Transform) - Extract data and load into warehouse or lake where transformations are done using SQL. Commonly seen in cloud warehouses.
+</p>
+<p>
+  Code:<br>
+  Depicting the difference in operations in ETL and ELT pipelines on raw_data with pandas operations acting on it.
+</p>
