@@ -27,5 +27,21 @@
 </p>
 <p>
   Code:<br>
-  Clean data, draw analysis and predict using Logistic Regression to predict for a value
+  Clean data, draw analysis and predict using Logistic Regression to predict for a value.
+</p>
+
+<p>
+  Day 3:<br>
+  Knowledge Gain:<br>
+  Skills for a Data Engineering <br>
+  1. SQL - query and manipulate data<br>
+  2. Python - Scripting and automation<br>
+  3. Linux and Shell - to work with servers and automation<br>
+  4. Git - Version control<br>
+  5. Cloud Platforms - new data pipelines<br>
+  6. Workflow Orchestration - manage complex ETL jobs
+</p>
+<p>
+  Code:<br>
+  Create and load data to SQLite to simulate a mini warehouse and query the data.
 </p>
