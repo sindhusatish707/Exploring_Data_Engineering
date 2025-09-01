@@ -82,3 +82,14 @@
   Code:<br>
   Depicting the difference in operations in ETL and ELT pipelines on raw_data with pandas operations acting on it.
 </p>
+
+<p>
+  Day 7:<br>
+  Knowledge Gain:<br>
+  Data Orchestration <br>
+  Orchestration includes scheduling jobs, handling dependencies, monitoring and alerting, and ensuring reliability at scale. 
+</p>
+<p>
+  Code:<br>
+  Depicts a smal orchestration where data extraction is run first, transformation is next and depends on extraction, and lastly loading which depends on transformation.
+</p>
