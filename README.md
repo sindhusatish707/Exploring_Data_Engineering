@@ -91,5 +91,18 @@
 </p>
 <p>
   Code:<br>
-  Depicts a smal orchestration where data extraction is run first, transformation is next and depends on extraction, and lastly loading which depends on transformation.
+  Depicts a small orchestration where data extraction is run first, transformation is next and depends on extraction, and lastly loading which depends on transformation.
+</p>
+
+<p>
+  Day 8:<br>
+  Knowledge Gain:<br>
+  Data Modeling - structuring data to easily analyse and query your data. <br>
+  Types of modeling: <br>
+  1. Star Schema: 1 central fact table + dimension tables. <br>
+  2. Snowflake Schema: Similar to star but with normalised dimensions.
+</p>
+<p>
+  Code:<br>
+  Create some tables with primary keys. Merge them to form a star schema, add a new field and display. 
 </p>
